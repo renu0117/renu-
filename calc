@@ -1,0 +1,18 @@
+def calc():
+    add(10,2)
+    sub(23,4)
+    mul(3,5)
+    div()
+def add(a,b):
+    sum=a+b
+    print(sum)
+def sub(a=10,b=2):
+    diff=a-b
+    print(diff)
+def mul(a,b):
+    prod=a*b
+    print(prod)
+def div(a=20,b=10):
+    d=a/b
+    print(d)
+calc()   
